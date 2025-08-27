@@ -2,7 +2,6 @@
 import { state } from './state.js';
 import { escapeHtml, escapeRegExp, fuzzySearch } from './utils.js';
 import { renderRejectionCodeDetails, renderInterfaceDetails, toggleFavorite } from './event-listeners.js';
-import { generateDataItemInput, generateFormHTML, getPlaceholderByType, getMaxLength, parsePopulationNotes } from './form-builder.js';
 
 export function cacheDOMElements() {
     const ids = ['searchInput', 'searchSuggestions', 'interfaceList', 'welcomeMessage', 'detailsContent',
